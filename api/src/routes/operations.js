@@ -5,6 +5,6 @@ const routerOperations = Router();
 routerOperations.get("/", getAllOperations);
 routerOperations.post("/", createOperation);
 routerOperations.put("/", updateOperation);
-routerOperations.delete("/", deleteOperation);
+routerOperations.delete("/:id", deleteOperation);
 
 module.exports = routerOperations;
