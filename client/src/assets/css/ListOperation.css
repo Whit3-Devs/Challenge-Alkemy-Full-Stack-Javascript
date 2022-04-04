@@ -1,0 +1,9 @@
+.colorPrimary svg path{
+    stroke: #198754 !important;
+    fill: #198754 !important;
+}
+
+.colorDanger svg path{
+    stroke: #dc3545;
+    fill: #dc3545;
+}
